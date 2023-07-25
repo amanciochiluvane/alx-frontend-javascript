@@ -1,4 +1,4 @@
-const {taskFirst, getLast, taskNext }=require('../0-constants')
+import { taskFirst, getLast, taskNext } from '../0-constants'; 
 
 // Test for taskFirst()
 test('taskFirst returns the correct value', () => {
@@ -14,3 +14,4 @@ test('getLast returns the correct value', () => {
 test('taskNext returns the correct combination', () => {
   expect(taskNext()).toBe('But sometimes let is okay');
 });
+
